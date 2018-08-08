@@ -1,0 +1,18 @@
+camera {
+    center = (4, 0, 0)
+    rot = (0, 50, 0)
+    aa = 1
+}
+
+sphere {
+    center = (0, 0, 3)
+    radius = 1
+    color = (255, 0, 0)
+    specular = 50
+}
+
+light {
+    type = point
+    intensity = 0.4
+    position = (3, 0, 3)
+}
